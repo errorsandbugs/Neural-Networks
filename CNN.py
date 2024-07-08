@@ -49,7 +49,7 @@ learning_rate = 0.01
 batch_size = 64
 num_epochs = 1
 
-# Load Data
+# to download datasets
 train_dataset = datasets.MNIST(
     root="dataset/", train=True, transform=transforms.ToTensor(), download=True
 )
